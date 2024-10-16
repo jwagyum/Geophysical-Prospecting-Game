@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광물 탐사 게임</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>광물 탐사 게임</h1>
+        <div id="exploration-area">
+            <h2>탐사 선택</h2>
+            <button onclick="startExploration()">탐사 시작</button>
+            <div id="response"></div>
+        </div>
+        <div id="market-area">
+            <h2>시장 분석</h2>
+            <button onclick="analyzeMarket()">시장 분석 요청</button>
+            <div id="market-response"></div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
