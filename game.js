@@ -22,7 +22,7 @@ async function analyzeMarket() {
 
 // OpenAI API와 상호작용하는 함수
 async function callOpenAIAPI(prompt) {
-    const apiKey = 'your-api-key-here';  // OpenAI API 키
+    const apiKey = 'sk-z-vWmm-B0LyrBvDENU3KqsgYvn_OwaeaBDbZ59zH1UT3BlbkFJAJA_lE1pVh9L5m6mQ0mPsFlA2MUZlDS7ajuZhO2NYA';  // OpenAI API 키
     const response = await fetch('https://api.openai.com/v1/completions', {
         method: 'POST',
         headers: {
