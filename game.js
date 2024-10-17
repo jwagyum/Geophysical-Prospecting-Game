@@ -22,7 +22,7 @@ async function analyzeMarket() {
 
 // OpenAI API와 상호작용하는 함수
 async function callOpenAIAPI(prompt) {
-    const apiKey = 'sk-z-vWmm-B0LyrBvDENU3KqsgYvn_OwaeaBDbZ59zH1UT3BlbkFJAJA_lE1pVh9L5m6mQ0mPsFlA2MUZlDS7ajuZhO2NYA';  // OpenAI API 키
+    const apiKey = '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';  // OpenAI API 키
     const response = await fetch('https://api.openai.com/v1/completions', {
         method: 'POST',
         headers: {
